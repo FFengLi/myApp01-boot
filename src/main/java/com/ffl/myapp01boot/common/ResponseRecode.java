@@ -1,4 +1,4 @@
-package com.ffl.ahydboot.common;
+package com.ffl.myapp01boot.common;
 
 /**
  * @Author liwei

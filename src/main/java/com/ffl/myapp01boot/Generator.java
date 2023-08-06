@@ -1,4 +1,4 @@
-package cn.edu.guet;
+package com.ffl.myapp01boot;
 
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;
@@ -22,7 +22,7 @@ public class Generator {
     public static void main(String[] args) throws XMLParserException, IOException, InvalidConfigurationException, SQLException, InterruptedException {
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
-        File configFile = new File("/Users/liwei/SpringMVC/src/main/resources/generatorConfig.xml");
+        File configFile = new File("E:\\Java学习\\微信小程序学习项目\\myApp01-boot\\myApp01-boot\\src\\main\\resources\\generatorConfig.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
