@@ -29,4 +29,8 @@ public class ProductController {
       List<Product> productList = productService.getProductList();
         return ResponseData.ok(productList);
     }
+    @GetMapping("/testJenkins")
+    public String testJenkins(){
+        return "jenkins自动构建部署测试";
+    }
 }
