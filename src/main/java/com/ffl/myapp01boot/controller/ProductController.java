@@ -31,6 +31,6 @@ public class ProductController {
     }
     @GetMapping("/testJenkins")
     public String testJenkins(){
-        return "jenkins自动构建部署测试";
+        return "jenkins测试自动构建部署";
     }
 }
