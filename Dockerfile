@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8:8-jdk-hotspot
+FROM adoptopenjdk/openjdk8
 
 #切换到镜像中的指定路径，设置工作目录
 WORKDIR app
