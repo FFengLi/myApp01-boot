@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8080
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/WeChat_App?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
